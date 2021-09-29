@@ -169,7 +169,7 @@
     "lint-staged": "^7.3.0",
     "md5": "^2.2.1",
     "prop-types": "^15.7.2",
-    "rc-queue-anim": "^1.4.1",
+    "rc-queue-anim": "^1.8.5",
     "rc-tween-one": "~1.7.3",
     "react": "^16.12.0",
     "react-copy-to-clipboard": "~5.0.1",
