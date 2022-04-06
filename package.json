@@ -18,7 +18,9 @@
     "precommit": "lint-staged",
     "preCommitInit": "node ./node_modules/husky/lib/installer/bin.js install",
     "test:report": "jest --coverage --coverageReporters=text-lcov | coveralls",
-    "dll": "webpack --config ./scripts/webpack.dll.config.js"
+    "dll": "webpack --config ./scripts/webpack.dll.config.js",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "husky": {
     "hooks": {
@@ -183,6 +185,8 @@
     "redux-mock-store": "^1.5.3",
     "redux-thunk": "~2.2.0",
     "require": "^2.4.20",
-    "socket.io-client": "^2.2.0"
-  }
+    "socket.io-client": "^2.2.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
