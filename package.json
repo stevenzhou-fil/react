@@ -147,7 +147,7 @@
     "webpack-parallel-uglify-plugin": "^1.1.2"
   },
   "dependencies": {
-    "@babel/core": "^7.7.2",
+    "@babel/core": "^7.22.6",
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/polyfill": "^7.7.0",
     "@babel/runtime": "^7.7.2",
